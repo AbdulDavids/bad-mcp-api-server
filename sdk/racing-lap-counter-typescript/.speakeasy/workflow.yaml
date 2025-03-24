@@ -10,6 +10,9 @@ targets:
     racing-lap-counter:
         target: typescript
         source: Racing Drivers API
+        publish:
+            npm:
+                token: $npm_token
         codeSamples:
             registry:
                 location: registry.speakeasyapi.dev/ritza-rzx/ritza/racing-drivers-api-typescript-code-samples
